@@ -8,7 +8,7 @@ Fazer os cursos e subir exemplos de códigos aprendidos no Github
 
 - Atualizar perfil no Training Center
 - Cadastrar no Visual Studio Dev Essentials
-- Navegar entre os links disponibilizados em relação a Pessoas, Comunidades e Canais de Comunicação na área.
+- Navegar entre os links disponibilizados em relação a Pessoas, Comunidades e Canais de Comunicação na área
 - [Curso GitHub](https://willianjusten.com.br/novo-curso-de-git-e-github-para-iniciantes/)
 - [Cursos do MVA](https://mva.microsoft.com/)
 - [Curso no Youtube](https://www.youtube.com/watch?v=9Uh0ynDB6ko&list=PLesCEcYj003SFffgnOcITHnCJavMf%200ArD&index=1)

@@ -24,8 +24,6 @@
  - [Introdução ao ASP.NET Core](https://docs.microsoft.com/pt-br/aspnet/core/)
  - [Stack Overflow](https://pt.stackoverflow.com/questions/3581/qual-%C3%A9-a-diferen%C3%A7a-entre-c-e-asp-net)
 
-## Mercado de Trabalho
-
 ## Cursos
 
  - [Visual Studio Dev Essentials](https://www.visualstudio.com/pt-br/dev-essentials/) [PROGRAMA MICROSOFT PARA OS DEVS - FREE]
