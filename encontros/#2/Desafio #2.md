@@ -6,8 +6,34 @@ Começar a entender e colocar em prática os principais conceitos de POO.
      
 ## Detalhe
 
-- Curso de POO no PluralSight. Esse curso é muito bem recomendado no PluralSight, para você ter acesso a essa platraforma, faça a inscrição no Visual Studio Dev Essentials, que comentei no Encontro #1 (programa com diversos benefícios da Microsoft para os devs)
+- Curso de POO no PluralSight. Esse curso é muito bem recomendado no PluralSight, mas não temos mais acesso via Visual Studio Dev Essentials :( Agora é pago!
 https://app.pluralsight.com/library/courses/object-oriented-programming-fundamentals-csharp/table-of-contents
+
+- Materias POO Free \o
+
+    **Português**
+
+    http://www.linhadecodigo.com.br/artigo/307/introducao-a-orientacao-a-objetos.aspx
+
+    http://www.devmedia.com.br/c-orientado-a-objetos-introducao/29539
+
+    https://msdn.microsoft.com/pt-br/library/cc580626.aspx
+
+    **Inglês**
+
+    http://www.c-sharpcorner.com/UploadFile/84c85b/object-oriented-programming-using-C-Sharp-net/
+
+    https://www.codeproject.com/Articles/22769/Introduction-to-Object-Oriented-Programming-Concep
+
+    http://www.c-sharpcorner.com/UploadFile/mkagrahari/introduction-to-object-oriented-programming-concepts-in-C-Sharp/
+
+    **Apostila**
+
+    https://www.caelum.com.br/apostila-csharp-orientacao-objetos/
+
+    **Vídeo Aula**
+
+    https://www.youtube.com/watch?v=vhvmZfxZhPw&t=5s
 
 - Dica bacana, treinar conceitos no HackerHank. Essa ferramenta é utilizada atualmente em muita empresas, como critério de seleção. Dá uma conferida!
 Caso tenha interesse, pode começar por esses caras:
