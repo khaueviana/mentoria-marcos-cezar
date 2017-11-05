@@ -28,7 +28,7 @@
 ## Cursos
 
  - [Visual Studio Dev Essentials](https://www.visualstudio.com/pt-br/dev-essentials/) [PROGRAMA MICROSOFT PARA OS DEVS - FREE]
- - [PluralSight](https://www.pluralsight.com/) [PAGO - FREE POR 3 MESES]
+ - [PluralSight](https://www.pluralsight.com/) [PAGO]
  - [MVA](https://mva.microsoft.com/) [FREE]
  - [Alura](https://www.alura.com.br/planos-cursos-online) [PAGO]
  - [Youtube](https://www.youtube.com/watch?v=9Uh0ynDB6ko&list=PLesCEcYj003SFffgnOcITHnCJavMf0ArD&index=1) [FREE]
@@ -73,6 +73,7 @@
  - [Nicolas Takashi](http://ntakashi.net/)
  - [Balta.io](http://balta.io/)
  - [Eduardo Pires](http://www.eduardopires.net.br/)
+ - [Elemar Jr.](http://www.elemarjr.com/pt/)
  - [Concrete](https://www.concrete.com.br/2011/07/21/bem-vindo-ao-blog-da-concretesolutions/)
 
 ### Youtube
@@ -94,6 +95,7 @@
 - [Lambda3](https://www.lambda3.com.br/tag/podcast/)
 - [Hipster.tech](https://hipsters.tech/)
 - [ProdCast](https://www.concrete.com.br/category/prodcast/?categoryId=5)
+- [Dev Na Estrada](http://devnaestrada.com.br/)
 
 ### Eventos
 
