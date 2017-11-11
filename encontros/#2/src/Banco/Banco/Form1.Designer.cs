@@ -47,38 +47,42 @@
             // 
             // textoTitular
             // 
-            this.textoTitular.Location = new System.Drawing.Point(183, 109);
+            this.textoTitular.Location = new System.Drawing.Point(274, 168);
+            this.textoTitular.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textoTitular.Name = "textoTitular";
-            this.textoTitular.Size = new System.Drawing.Size(100, 20);
+            this.textoTitular.Size = new System.Drawing.Size(148, 26);
             this.textoTitular.TabIndex = 0;
-            this.textoTitular.TextChanged += new System.EventHandler(this.textoTitular_TextChanged);
             // 
             // textoNumero
             // 
-            this.textoNumero.Location = new System.Drawing.Point(183, 162);
+            this.textoNumero.Location = new System.Drawing.Point(274, 249);
+            this.textoNumero.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textoNumero.Name = "textoNumero";
-            this.textoNumero.Size = new System.Drawing.Size(100, 20);
+            this.textoNumero.Size = new System.Drawing.Size(148, 26);
             this.textoNumero.TabIndex = 1;
             // 
             // textoSaldo
             // 
-            this.textoSaldo.Location = new System.Drawing.Point(183, 209);
+            this.textoSaldo.Location = new System.Drawing.Point(274, 322);
+            this.textoSaldo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textoSaldo.Name = "textoSaldo";
-            this.textoSaldo.Size = new System.Drawing.Size(100, 20);
+            this.textoSaldo.Size = new System.Drawing.Size(148, 26);
             this.textoSaldo.TabIndex = 2;
             // 
             // textoValor
             // 
-            this.textoValor.Location = new System.Drawing.Point(183, 258);
+            this.textoValor.Location = new System.Drawing.Point(274, 397);
+            this.textoValor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textoValor.Name = "textoValor";
-            this.textoValor.Size = new System.Drawing.Size(100, 20);
+            this.textoValor.Size = new System.Drawing.Size(148, 26);
             this.textoValor.TabIndex = 3;
             // 
             // botaoDeposito
             // 
-            this.botaoDeposito.Location = new System.Drawing.Point(76, 299);
+            this.botaoDeposito.Location = new System.Drawing.Point(114, 460);
+            this.botaoDeposito.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.botaoDeposito.Name = "botaoDeposito";
-            this.botaoDeposito.Size = new System.Drawing.Size(75, 27);
+            this.botaoDeposito.Size = new System.Drawing.Size(112, 42);
             this.botaoDeposito.TabIndex = 4;
             this.botaoDeposito.Text = "Deposita";
             this.botaoDeposito.UseVisualStyleBackColor = true;
@@ -86,9 +90,10 @@
             // 
             // botaoSaque
             // 
-            this.botaoSaque.Location = new System.Drawing.Point(183, 299);
+            this.botaoSaque.Location = new System.Drawing.Point(274, 460);
+            this.botaoSaque.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.botaoSaque.Name = "botaoSaque";
-            this.botaoSaque.Size = new System.Drawing.Size(75, 27);
+            this.botaoSaque.Size = new System.Drawing.Size(112, 42);
             this.botaoSaque.TabIndex = 5;
             this.botaoSaque.Text = "Saca";
             this.botaoSaque.UseVisualStyleBackColor = true;
@@ -97,53 +102,59 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(73, 109);
+            this.label1.Location = new System.Drawing.Point(110, 168);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 13);
+            this.label1.Size = new System.Drawing.Size(52, 20);
             this.label1.TabIndex = 6;
             this.label1.Text = "Titular";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(73, 162);
+            this.label2.Location = new System.Drawing.Point(110, 249);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 13);
+            this.label2.Size = new System.Drawing.Size(65, 20);
             this.label2.TabIndex = 7;
             this.label2.Text = "Numero";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(73, 209);
+            this.label3.Location = new System.Drawing.Point(110, 322);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 13);
+            this.label3.Size = new System.Drawing.Size(50, 20);
             this.label3.TabIndex = 8;
             this.label3.Text = "Saldo";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(73, 261);
+            this.label4.Location = new System.Drawing.Point(110, 402);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(31, 13);
+            this.label4.Size = new System.Drawing.Size(46, 20);
             this.label4.TabIndex = 9;
             this.label4.Text = "Valor";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(66, 27);
+            this.label5.Location = new System.Drawing.Point(99, 42);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 13);
+            this.label5.Size = new System.Drawing.Size(126, 20);
             this.label5.TabIndex = 10;
             this.label5.Text = "Escolha a Conta";
             // 
             // BotaoDeBusca
             // 
-            this.BotaoDeBusca.Location = new System.Drawing.Point(130, 64);
+            this.BotaoDeBusca.Location = new System.Drawing.Point(195, 98);
+            this.BotaoDeBusca.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BotaoDeBusca.Name = "BotaoDeBusca";
-            this.BotaoDeBusca.Size = new System.Drawing.Size(75, 27);
+            this.BotaoDeBusca.Size = new System.Drawing.Size(112, 42);
             this.BotaoDeBusca.TabIndex = 12;
             this.BotaoDeBusca.Text = "Buscar";
             this.BotaoDeBusca.UseVisualStyleBackColor = true;
@@ -152,16 +163,18 @@
             // comboContas
             // 
             this.comboContas.FormattingEnabled = true;
-            this.comboContas.Location = new System.Drawing.Point(183, 27);
+            this.comboContas.Location = new System.Drawing.Point(274, 42);
+            this.comboContas.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboContas.Name = "comboContas";
-            this.comboContas.Size = new System.Drawing.Size(121, 21);
+            this.comboContas.Size = new System.Drawing.Size(180, 28);
             this.comboContas.TabIndex = 13;
             // 
             // bataoCadastro
             // 
-            this.bataoCadastro.Location = new System.Drawing.Point(3, 332);
+            this.bataoCadastro.Location = new System.Drawing.Point(4, 511);
+            this.bataoCadastro.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bataoCadastro.Name = "bataoCadastro";
-            this.bataoCadastro.Size = new System.Drawing.Size(75, 27);
+            this.bataoCadastro.Size = new System.Drawing.Size(112, 42);
             this.bataoCadastro.TabIndex = 14;
             this.bataoCadastro.Text = "Nova conta";
             this.bataoCadastro.UseVisualStyleBackColor = true;
@@ -169,9 +182,10 @@
             // 
             // botaoImpostos
             // 
-            this.botaoImpostos.Location = new System.Drawing.Point(241, 332);
+            this.botaoImpostos.Location = new System.Drawing.Point(362, 511);
+            this.botaoImpostos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.botaoImpostos.Name = "botaoImpostos";
-            this.botaoImpostos.Size = new System.Drawing.Size(75, 27);
+            this.botaoImpostos.Size = new System.Drawing.Size(112, 42);
             this.botaoImpostos.TabIndex = 15;
             this.botaoImpostos.Text = "Impostos";
             this.botaoImpostos.UseVisualStyleBackColor = true;
@@ -179,9 +193,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(343, 385);
+            this.ClientSize = new System.Drawing.Size(514, 592);
             this.Controls.Add(this.botaoImpostos);
             this.Controls.Add(this.bataoCadastro);
             this.Controls.Add(this.comboContas);
@@ -197,6 +211,7 @@
             this.Controls.Add(this.textoSaldo);
             this.Controls.Add(this.textoNumero);
             this.Controls.Add(this.textoTitular);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
