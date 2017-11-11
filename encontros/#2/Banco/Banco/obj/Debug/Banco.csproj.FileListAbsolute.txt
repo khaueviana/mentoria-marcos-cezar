@@ -1,0 +1,11 @@
+C:\Users\MARMIG\Documents\Visual Studio 2017\Projects\Banco\Banco\obj\Debug\Banco.csprojResolveAssemblyReference.cache
+C:\Users\MARMIG\Documents\Visual Studio 2017\Projects\Banco\Banco\obj\Debug\Banco.Form1.resources
+C:\Users\MARMIG\Documents\Visual Studio 2017\Projects\Banco\Banco\obj\Debug\Banco.Properties.Resources.resources
+C:\Users\MARMIG\Documents\Visual Studio 2017\Projects\Banco\Banco\obj\Debug\Banco.csproj.GenerateResource.Cache
+C:\Users\MARMIG\Documents\Visual Studio 2017\Projects\Banco\Banco\obj\Debug\Banco.csproj.CoreCompileInputs.cache
+C:\Users\MARMIG\Documents\Visual Studio 2017\Projects\Banco\Banco\bin\Debug\Banco.exe.config
+C:\Users\MARMIG\Documents\Visual Studio 2017\Projects\Banco\Banco\bin\Debug\Banco.exe
+C:\Users\MARMIG\Documents\Visual Studio 2017\Projects\Banco\Banco\bin\Debug\Banco.pdb
+C:\Users\MARMIG\Documents\Visual Studio 2017\Projects\Banco\Banco\obj\Debug\Banco.exe
+C:\Users\MARMIG\Documents\Visual Studio 2017\Projects\Banco\Banco\obj\Debug\Banco.pdb
+C:\Users\MARMIG\Documents\Visual Studio 2017\Projects\Banco\Banco\obj\Debug\Banco.FormCadastroConta.resources
