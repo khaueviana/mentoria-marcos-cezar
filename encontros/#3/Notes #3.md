@@ -59,3 +59,10 @@
 
 Recurso bacana do C# para dar uma olhada:
 [Pattern Matching](http://netcoders.com.br/csharp-7-pattern-matching/)
+
+# Notas sobre o Projeto Banco
+
+- Utilizou conceitos básicos de PO
+- Utilizou conceitos de interação com usuário
+- Utilizou conceitos básicos de BD com Arrays
+- Acredito que algumas melhorias de UI (limpar campos e msgs melhores) e validação de dados poderiam ter sido feitas
