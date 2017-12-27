@@ -1,0 +1,84 @@
+body{
+    color: #333;
+    font-family: "Lucina Sans Unicode","Lucina Grande", sans-serif;
+}
+.destaque{
+    margin-top: 10px;
+}
+header{
+    position: relative;
+    padding-top: 10px;
+}
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+.sacola{
+    background: url(../mirrorfashion/img/sacola.png) no-repeat top right;
+    padding-top: 8px;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+}
+.sacola{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.menu-opcoes{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+.menu-opcoes ul{
+    font-size: 15px;
+}
+
+.menu-opcoes a{
+    color: #036;
+}
+.menu-opcoes a:hover{
+    color: #007dc6;
+}
+.menu-opcoes a:active {
+    color: #867dc6;
+}
+ul li{
+    display: inline;
+    margin-left: 20px;
+}
+footer {
+    background-image: url(../mirrorfashion/img/fundo-rodape.png);
+    clear: both;
+    padding: 20px 0;
+}
+footer .container{
+    position: relative;
+}
+footer li{
+    float: left;
+    margin-left: 25px;
+}
+.social{
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+.social a{
+    height: 32px;
+    width: 32px;
+    display: block;    
+    text-indent: -9999px;
+}
+    
+.social a[href *="facebook.com"]{
+    background-image: url(../mirrorfashion/img/facebook.png);
+}
+.social a[href *="twitter.com"]{
+    background-image: url(../mirrorfashion/img/twitter.png);
+}
+.social a[href *="plus.google.com"]{
+    background-image: url(../mirrorfashion/img/googleplus.png);
+}
+
