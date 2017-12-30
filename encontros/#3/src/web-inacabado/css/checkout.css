@@ -1,0 +1,13 @@
+body{
+    padding-top: 90px;
+}
+.form-control:invalid{
+    border: 1px solid #C00;
+}
+
+.navbar{
+    margin:0;
+}
+.navbar .glyphicon{
+    color: white;
+}

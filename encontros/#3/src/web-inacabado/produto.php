@@ -15,7 +15,7 @@
                     <input type="hidden" name="ida" value="2">
                     <fieldset class="cores">
                         <legend>Escsolha sua cor</legend>
-                        <input type="radio" name="cor" value="verde" id="verde">
+                        <input type="radio" name="cor" value="verde" id="verde" checked>
                         <label for="verde">
                             <img src="mirrorfashion\img\produtos\foto2-verde.png" alt="Produto na cor verde">
                         </label>
@@ -76,4 +76,5 @@
             include("rodape.php");
         ?>
     </body>
+    
 </html>
