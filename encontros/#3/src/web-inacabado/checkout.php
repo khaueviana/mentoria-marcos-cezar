@@ -84,7 +84,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="cpf">CPF</label>
-                                        <input type='text' required class='form-control' id='cpf' name='cpf' placeholder="000.000.000-00">      
+                                        <input data-mask="999.999.999-99" type='text' required class='form-control' id='cpf' name='cpf'>      
                                     </div>
                                     <div class="checkbox">
                                         <label for='span'><input type="checkbox" value="sim" name="spam" checked>
@@ -98,7 +98,7 @@
                                     <div class="form-group">
                                         <label for="numero-cartao">Número - CVV</label>
                                         <input type="text" class="form-control"
-                                            id="numero-cartao" name="numero-cartao">
+                                            id="numero-cartao" name="numero-cartao" data-mask="9999 9999 9999 9999 - 999">
                                     </div>
                                     <div class="form-group">
                                         <label for="bandeira-cartao">Bandeira</label>
@@ -143,5 +143,6 @@
     <script src="js/converteMoedas.js"></script>
     <script src="js/testeDeConversao.js"></script>
     <script src="js/total.js"></script>
+    <script src="mirrorfashion/js/inputmask-plugin.js"></script>
 
 </html>

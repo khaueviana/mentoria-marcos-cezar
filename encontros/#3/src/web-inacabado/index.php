@@ -43,7 +43,7 @@
                 <h2>Novidades</h2>
                 <ol>
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="mirrorfashion/img/produtos/miniatura1.png">
                                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -51,7 +51,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="mirrorfashion/img/produtos/miniatura2.png">
                                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -59,7 +59,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="mirrorfashion/img/produtos/miniatura3.png">
                                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -67,7 +67,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="mirrorfashion/img/produtos/miniatura4.png">
                                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -75,7 +75,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="mirrorfashion/img/produtos/miniatura5.png">
                                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -83,7 +83,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="mirrorfashion/img/produtos/miniatura6.png">
                                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -91,12 +91,13 @@
                         </a>
                     </li>                    
                 </ol>
+                <button type="button">Mostra mais</button>
             </section>
             <section class="painel mais-vendidos">
                     <h2>Mais vendidos</h2>
                     <ol>
                         <li>
-                            <a href="produto.html">
+                            <a href="produto.php">
                                 <figure>
                                     <img src="mirrorfashion/img/produtos/miniatura1.png">
                                     <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -104,7 +105,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="produto.html">
+                            <a href="produto.php">
                                 <figure>
                                     <img src="mirrorfashion/img/produtos/miniatura2.png">
                                     <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -112,7 +113,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="produto.html">
+                            <a href="produto.php">
                                 <figure>
                                     <img src="mirrorfashion/img/produtos/miniatura3.png">
                                     <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -120,7 +121,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="produto.html">
+                            <a href="produto.php">
                                 <figure>
                                     <img src="mirrorfashion/img/produtos/miniatura4.png">
                                     <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -128,7 +129,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="produto.html">
+                            <a href="produto.php">
                                 <figure>
                                     <img src="mirrorfashion/img/produtos/miniatura5.png">
                                     <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -136,7 +137,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="produto.html">
+                            <a href="produto.php">
                                 <figure>
                                     <img src="mirrorfashion/img/produtos/miniatura6.png">
                                     <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -144,12 +145,15 @@
                             </a>
                         </li>                    
                     </ol>
+                    <button type="button">Mostra mais</button>
                 </section>
         </div>
     </section>
     <?php 
         include("rodape.php");
     ?>
-
+    <script src="mirrorfashion/js/jquery.js"></script>
     <script src="js/bannerRotativo.js"></script>
+    <script src="js/home.js"></script>
 </body>
+</html>

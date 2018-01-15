@@ -1,0 +1,1 @@
+$('.painel').addClass('painel-compacto')

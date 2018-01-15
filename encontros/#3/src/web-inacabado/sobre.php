@@ -9,7 +9,9 @@
 
         <article>
             <section>
+            <a href="index.php">
                 <img src="mirrorfashion\img\logo.png">
+            </a>
                 <h1>Mirror Fashion</h1>
                 <p>A <strong>Mirror Fashion</strong> é a maior empresa comércio eletrônico no segmento de moda em todo o mundo. 
                     Fundada há <?php print date("Y") - 1932?>, possui filiais em 124 países, sendo líder de mercado com mais de 90% de 
@@ -21,7 +23,7 @@
                 <p>Nosso centro de distribuição fica em <a href="https://maps.google.com.br/?q=Jacarezinho">Jacarezinho</a>, no Paraná. De lá, saem 48 aviões que 
                     distribuem nossos produtos às casas do mundo todo. Nosso centro de distribuição:</p>
                     
-                <p>Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.html"> nossa loja</a> ou entre em contato 
+                <p>Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.php"> nossa loja</a> ou entre em contato 
                     se tiver dúvidas. Conheça também nossa <a href="#historia"> historia</a> e nossos <a href="#diferenciais">diferenciais</a></p>
             </section>    
                 

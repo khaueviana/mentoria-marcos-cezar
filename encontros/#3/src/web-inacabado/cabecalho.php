@@ -12,7 +12,7 @@
 </head>
 <body>
 <header class="container">
-        <h1><img src="mirrorfashion\img\logo.png" alt="Mirror Fashion"></h1>
+        <h1><a href="index.php"><img src="mirrorfashion\img\logo.png" alt="Mirror Fashion"></a></h1>
         <p class="sacola">
             Nenhum item na sacola de compras
         </p>
