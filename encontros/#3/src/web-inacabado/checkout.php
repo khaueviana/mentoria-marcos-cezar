@@ -45,14 +45,25 @@
                                 <dt>Produto</dt>
                                     <dd><?= $_POST['nome'] ?> </dd>
                                 <dt>Preço</dt>
-                                    <dd><?= $_POST['preco'] ?> </dd>
+                                    <dd id ='preco'><?= $_POST['preco'] ?> </dd>
                                 <dt>Cor</dt>
                                     <dd><?= $_POST['cor'] ?> </dd>
                                 <dt>Tamanho</dt>
                                     <dd><?= $_POST['tamanho'] ?> </dd>
                             </dl>
+                                <div class="form-group">
+                                    <label for="qt">Quantidade</label>
+                                    <input id="qt" class="form-control" type="number" min="1" max="99"
+                                    value="1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="total">Total</label>
+                                    <output for="qt valor" id="total" class="form-control">
+                                    <?= $_POST["preco"] ?>
+                                    </output>
+                                </div>
+                            </div>
                         </div>
-                    </div>
                 </div>
                 <div class="col-sm-8 col-lg-9">
                     <form>
@@ -128,5 +139,9 @@
     </script>    
     <script src="mirrorfashion/js/jquery.js"></script>
     <script src="mirrorfashion/js/bootstrap.js"></script>
+    <!--<script src="js/teste.js"></script>-->
+    <script src="js/converteMoedas.js"></script>
+    <script src="js/testeDeConversao.js"></script>
+    <script src="js/total.js"></script>
 
 </html>

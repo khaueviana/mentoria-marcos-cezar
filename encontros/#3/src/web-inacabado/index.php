@@ -34,6 +34,7 @@
                 </nav>
             </section><!-- fim .menu-departamentos -->
                 <img src="mirrorfashion/img/destaque-home.png" alt="Promoção: Big City Night">
+                <a href="#" class="pause"></a>
             </div><!-- fim .container .destaque -->
     </section>
     <section>
@@ -150,5 +151,5 @@
         include("rodape.php");
     ?>
 
-
+    <script src="js/bannerRotativo.js"></script>
 </body>

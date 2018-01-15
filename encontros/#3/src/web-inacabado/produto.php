@@ -11,7 +11,7 @@
 
                 <form action="checkout.php" method="POST">
                     <input type="hidden" name="nome" value="Fuzzy Cardigan">
-                    <input type="hidden" name="preco" value="129.00">
+                    <input type="hidden" name="preco" value="129,00">
                     <input type="hidden" name="ida" value="2">
                     <fieldset class="cores">
                         <legend>Escsolha sua cor</legend>
