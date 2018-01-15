@@ -125,7 +125,6 @@
                 </div>
             </div>
         </div>
-    </body>
     <script>
         document.querySelector('input[type=email]').oninvalid = function() {
         // remove mensagens de erro antigas
@@ -144,5 +143,6 @@
     <script src="js/testeDeConversao.js"></script>
     <script src="js/total.js"></script>
     <script src="mirrorfashion/js/inputmask-plugin.js"></script>
+    </body>
 
 </html>

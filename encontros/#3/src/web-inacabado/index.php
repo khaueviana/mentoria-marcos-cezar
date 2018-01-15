@@ -89,7 +89,31 @@
                                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
                             </figure>
                         </a>
-                    </li>                    
+                    </li>
+                    <li>
+                        <a href="produto.php">
+                            <figure>
+                                <img src="mirrorfashion/img/produtos/miniatura4.png">
+                                <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="produto.php">
+                            <figure>
+                                <img src="mirrorfashion/img/produtos/miniatura5.png">
+                                <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="produto.php">
+                            <figure>
+                                <img src="mirrorfashion/img/produtos/miniatura6.png">
+                                <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                            </figure>
+                        </a>
+                    </li>                            
                 </ol>
                 <button type="button">Mostra mais</button>
             </section>

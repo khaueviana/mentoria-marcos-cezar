@@ -22,11 +22,13 @@
                 </figure>
                 <p>Nosso centro de distribuição fica em <a href="https://maps.google.com.br/?q=Jacarezinho">Jacarezinho</a>, no Paraná. De lá, saem 48 aviões que 
                     distribuem nossos produtos às casas do mundo todo. Nosso centro de distribuição:</p>
+                <iframe width="425" height="350" frameborder="0"
+                scrolling="no" marginheight="0" marginwidth="0"
+                src="http://maps.google.com.br/maps?q=Jacarezinho&amp;output=embed"></iframe>
                     
                 <p>Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.php"> nossa loja</a> ou entre em contato 
                     se tiver dúvidas. Conheça também nossa <a href="#historia"> historia</a> e nossos <a href="#diferenciais">diferenciais</a></p>
             </section>    
-                
             <section> 
             <h2 id="historia">História</h2>
             <figure id ="familia-pelho" >
@@ -51,6 +53,7 @@
                 <p>Dada a importância econômica da empresa para o Brasil, a família Pelho já recebeu diversos prêmios, 
                     homenagens e condecorações. Todos os presidentes do Brasil já visitaram as instalações da Mirror 
                 Fashion, além de presidentes da União Européia, Ásia e o secretário-geral da ONU.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Tb06abHE4hY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </section>
 
             <section>   
@@ -68,6 +71,7 @@
                 </ul>
             </section>    
         </article>   
+
 
         <footer id="rodape">
                 <img src="mirrorfashion\img\logo.png">

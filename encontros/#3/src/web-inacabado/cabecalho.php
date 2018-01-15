@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css\animacao-produtos.css">
     <?php print @$cabecalho_css; ?>
     <link rel = "stylesheet" href="css/mobile.css" media="(max-width:939px)">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans|Bad+Script' rel='stylesheet'>
 </head>
 <body>
 <header class="container">

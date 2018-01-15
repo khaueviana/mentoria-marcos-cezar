@@ -7,6 +7,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 940px;
+    position: relative;
 }
 p{
     text-align: left;
@@ -62,4 +63,10 @@ h1 + p{
 
 :not(p) + p:first-line{
     font-variant: small-caps;
+}
+iframe{
+    position: relative;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%) 
 }

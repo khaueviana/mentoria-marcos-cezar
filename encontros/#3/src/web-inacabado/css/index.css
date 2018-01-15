@@ -171,3 +171,9 @@ button{
 .painel-compacto button{
     display:block;
 }
+body {
+    font-family: 'PT Sans', sans-serif;
+    }
+    .painel h2 {
+    font-family: 'Bad Script', sans-serif;
+    }
