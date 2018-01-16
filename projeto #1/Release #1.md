@@ -17,3 +17,11 @@ Campos do Jogo (se achar que está faltando algum campo, fique a vontade para su
 - Nota do Jogo (a nota pode ser alguma plataforma de jogo qualquer, tipo Metacritic)
 - Imagem da Capa [item plus, se achar que está complicado, colocamos depois]
 
+## Referências
+
+http://www.macoratti.net/14/05/aspn_3cam.htm
+
+http://www.macoratti.net/cshp_3c1.htm
+
+[Exemplo de CRUD com objeto estático](https://github.com/khaueviana/mentoria-joao-paulo/blob/master/encontros/%231/sampleListCrud.cs)
+
