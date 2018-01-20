@@ -40,6 +40,7 @@
     <section>
         <div class="container paineis">
             <section class="painel novidades">
+                <div class='painel-compacto'>
                 <h2>Novidades</h2>
                 <ol>
                     <li>
@@ -115,6 +116,7 @@
                         </a>
                     </li>                            
                 </ol>
+                </div>
                 <button type="button">Mostra mais</button>
             </section>
             <section class="painel mais-vendidos">
@@ -167,7 +169,31 @@
                                     <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
                                 </figure>
                             </a>
-                        </li>                    
+                        </li>
+                        <li>
+                            <a href="produto.php">
+                                <figure>
+                                    <img src="mirrorfashion/img/produtos/miniatura4.png">
+                                    <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="produto.php">
+                                <figure>
+                                    <img src="mirrorfashion/img/produtos/miniatura5.png">
+                                    <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="produto.php">
+                                <figure>
+                                    <img src="mirrorfashion/img/produtos/miniatura6.png">
+                                    <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                                </figure>
+                            </a>
+                        </li>                      
                     </ol>
                     <button type="button">Mostra mais</button>
                 </section>
