@@ -10,7 +10,7 @@ namespace UI.Areas.Genero.ViewModels
     {
         [Key]
         public long GeneroId { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Campo obrigatório")]
         public string Nome { get; set; }
     }
 }
