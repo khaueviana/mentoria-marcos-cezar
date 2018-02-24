@@ -191,7 +191,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Genero\Controllers\" />
-    <Folder Include="Areas\Genero\Models\" />
+    <Folder Include="Areas\Genero\ViewModels\" />
     <Folder Include="Areas\Genero\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
