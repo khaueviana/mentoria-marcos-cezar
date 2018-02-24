@@ -2,7 +2,7 @@
 
 namespace BLL.Interfaces
 {
-    interface IGeneroBLL : IBLL<Genero>
+    public interface IGeneroBLL : IBLL<Genero>
     {
     }
 }
