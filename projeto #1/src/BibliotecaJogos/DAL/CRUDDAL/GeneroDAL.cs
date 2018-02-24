@@ -3,7 +3,7 @@ using Entidades;
 
 namespace DAL.CRUDDAL
 {
-    class GeneroDAL : PadraoDAL<Genero>, IGeneroMetodosCRUD
+    public class GeneroDAL : PadraoDAL<Genero>, IGeneroMetodosCRUD
     {
     }
 }

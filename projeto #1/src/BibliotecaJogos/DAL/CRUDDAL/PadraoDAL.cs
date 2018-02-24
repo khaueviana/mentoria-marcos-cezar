@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.CRUDDAL
 {
-    class PadraoDAL<TEntity> : IMetodosCRUD<TEntity> where TEntity : class
+    public class PadraoDAL<TEntity> : IMetodosCRUD<TEntity> where TEntity : class
     {
 
         protected BibliotecaContext context = new BibliotecaContext();
