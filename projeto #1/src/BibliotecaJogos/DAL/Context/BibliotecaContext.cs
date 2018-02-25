@@ -8,5 +8,8 @@ namespace DAL.Context
         public BibliotecaContext() : base("BibliotecaJogos") { }
 
         DbSet<Genero> Generos { get; set; }
+        DbSet<Produtora> Produtoras { get; set; }
+        DbSet<Plataforma> Plataformas { get; set; }
+        DbSet<Jogo> Jogos { get; set; }
     }
 }

@@ -15,16 +15,17 @@ namespace Entidades
         public decimal Preco { get; set; }
         public byte NotaDoJogo { get; set; }
 
-        [ForeignKey("Genero")]
+        
         public long GeneroId { get; set; }
+        [ForeignKey("GeneroId")]
         public Genero Genero { get; set; }
 
-        [ForeignKey("Plataforma")]
         public long PlataformaId { get; set; }
+        [ForeignKey("PlataformaId")]
         public Plataforma Plataforma { get; set; }
 
-        [ForeignKey("Produtora")]
         public long ProdutoraId { get; set; }
+        [ForeignKey("ProdutoraId")]
         public Produtora Produtora { get; set; }
     }
 }

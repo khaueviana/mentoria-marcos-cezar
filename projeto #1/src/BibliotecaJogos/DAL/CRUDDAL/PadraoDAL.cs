@@ -20,12 +20,12 @@ namespace DAL.CRUDDAL
             context.SaveChanges();
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public virtual IEnumerable<TEntity> GetAll()
         {
             return context.Set<TEntity>().ToList();
         }
 
-        public TEntity GetById(long id)
+        public virtual TEntity GetById(long id)
         {
             return context.Set<TEntity>().Find(id);
         }

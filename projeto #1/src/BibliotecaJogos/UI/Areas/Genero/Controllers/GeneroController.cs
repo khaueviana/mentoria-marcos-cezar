@@ -92,7 +92,6 @@ namespace UI.Areas.Genero.Controllers
                 generos.Remove(generos.GetById(id));
                 return RedirectToAction("Index");
 
-            return View();
         }
     }
 }

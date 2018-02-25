@@ -8,7 +8,12 @@ namespace BLL.BLL
     public class PadraoBLL<TEntity> : IBLL<TEntity> where TEntity : class
     {
 
-        public PadraoDAL<TEntity> contextObj = new PadraoDAL<TEntity>();
+        protected virtual PadraoDAL<TEntity> contextObj { get; set; }
+
+        public PadraoBLL()
+        {
+            contextObj = new PadraoDAL<TEntity>();
+        }
 
         public void Add(TEntity obj)
         {

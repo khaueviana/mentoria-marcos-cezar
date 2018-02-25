@@ -16,7 +16,7 @@ namespace UI.Areas.Genero
         {
             context.MapRoute(
                 "Genero_default",
-                "Genero/{controller}/{action}/{id}",
+                "{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional }
             );
         }

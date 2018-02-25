@@ -149,6 +149,9 @@
     <Compile Include="Areas\Genero\Controllers\GeneroController.cs" />
     <Compile Include="Areas\Genero\GeneroAreaRegistration.cs" />
     <Compile Include="Areas\Genero\ViewModels\GeneroViewModel.cs" />
+    <Compile Include="Areas\Produtora\Controllers\ProdutoraController.cs" />
+    <Compile Include="Areas\Produtora\ProdutoraAreaRegistration.cs" />
+    <Compile Include="Areas\Produtora\ViewModels\ProdutoraViewModel.cs" />
     <Compile Include="AutoMapper\AutoMapperConfig.cs" />
     <Compile Include="AutoMapper\EntidadeToViewModelMappingProfile.cs" />
     <Compile Include="AutoMapper\ViewModelToEntidadeMappingProfile.cs" />
@@ -178,11 +181,14 @@
     <Content Include="Areas\Genero\Views\web.config" />
     <Content Include="Areas\Genero\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Genero\Views\Shared\_Layout.cshtml" />
-    <Content Include="Areas\Genero\Views\Genero\Index.cshtml" />
-    <Content Include="Areas\Genero\Views\Genero\Details.cshtml" />
-    <Content Include="Areas\Genero\Views\Genero\Create.cshtml" />
-    <Content Include="Areas\Genero\Views\Genero\Edit.cshtml" />
-    <Content Include="Areas\Genero\Views\Genero\Delete.cshtml" />
+    <Content Include="Areas\Produtora\Views\web.config" />
+    <Content Include="Areas\Produtora\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Produtora\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Produtora\Views\Produtora\Index.cshtml" />
+    <Content Include="Areas\Produtora\Views\Produtora\Details.cshtml" />
+    <Content Include="Areas\Produtora\Views\Produtora\Create.cshtml" />
+    <Content Include="Areas\Produtora\Views\Produtora\Edit.cshtml" />
+    <Content Include="Areas\Produtora\Views\Produtora\Delete.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -210,6 +216,7 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Areas\Genero\Views\Genero\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
