@@ -1,4 +1,5 @@
 ﻿using BLL.Interfaces;
+using DAL.CRUDDAL;
 using DAL.Interface;
 using System.Collections.Generic;
 
@@ -7,7 +8,7 @@ namespace BLL.BLL
     public class PadraoBLL<TEntity> : IBLL<TEntity> where TEntity : class
     {
 
-        public IMetodosCRUD<TEntity> contextObj { get; set; }
+        public PadraoDAL<TEntity> contextObj = new PadraoDAL<TEntity>();
 
         public void Add(TEntity obj)
         {

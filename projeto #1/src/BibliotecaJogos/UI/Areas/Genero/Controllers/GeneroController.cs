@@ -1,17 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using BLL.BLL;
+using AutoMapper;
 using System.Web.Mvc;
+using Entidades;
+using UI.Areas.Genero.ViewModels;
+using System.Collections.Generic;
 
 namespace UI.Areas.Genero.Controllers
 {
     public class GeneroController : Controller
     {
+        private GeneroBLL generos = new GeneroBLL();
         // GET: Genero/Genero
         public ActionResult Index()
         {
-            return View();
+            var generoViewModel = Mapper.Map < IEnumerable < Entidades.Genero>, IEnumerable<GeneroViewModel>>(generos.GetAll());
+            return View(generoViewModel);
         }
 
         // GET: Genero/Genero/Details/5
