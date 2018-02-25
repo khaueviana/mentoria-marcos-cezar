@@ -4,23 +4,38 @@ using System.Web.Mvc;
 using Entidades;
 using UI.Areas.Genero.ViewModels;
 using System.Collections.Generic;
+using System.Net;
 
 namespace UI.Areas.Genero.Controllers
 {
     public class GeneroController : Controller
     {
+        private ActionResult GeradorDeViews(long? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            var generoViewModel = Mapper.Map<Entidades.Genero, GeneroViewModel>(generos.GetById((long)id));
+            if (generoViewModel == null)
+            {
+                return HttpNotFound();
+            }
+            return View(generoViewModel);
+        }
+
         private GeneroBLL generos = new GeneroBLL();
         // GET: Genero/Genero
         public ActionResult Index()
         {
-            var generoViewModel = Mapper.Map < IEnumerable < Entidades.Genero>, IEnumerable<GeneroViewModel>>(generos.GetAll());
+            var generoViewModel = Mapper.Map <IEnumerable < Entidades.Genero>, IEnumerable<GeneroViewModel>>(generos.GetAll());
             return View(generoViewModel);
         }
 
         // GET: Genero/Genero/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(long? id)
         {
-            return View();
+            return GeradorDeViews(id);
         }
 
         // GET: Genero/Genero/Create
@@ -31,62 +46,53 @@ namespace UI.Areas.Genero.Controllers
 
         // POST: Genero/Genero/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(GeneroViewModel obj)
         {
-            try
+            if (ModelState.IsValid)
             {
-                // TODO: Add insert logic here
-
+                Entidades.Genero genero = Mapper.Map<GeneroViewModel, Entidades.Genero>(obj);
+                generos.Add(genero);
                 return RedirectToAction("Index");
             }
-            catch
-            {
-                return View();
-            }
+            return View(obj);
         }
 
         // GET: Genero/Genero/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(long? id)
         {
-            return View();
+            return GeradorDeViews(id);
         }
 
         // POST: Genero/Genero/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(GeneroViewModel obj)
         {
-            try
+            if (ModelState.IsValid)
             {
-                // TODO: Add update logic here
-
+                Entidades.Genero genero = Mapper.Map<GeneroViewModel, Entidades.Genero>(obj);
+                generos.Update(genero);
                 return RedirectToAction("Index");
             }
-            catch
-            {
-                return View();
-            }
+            return View(obj);
         }
 
         // GET: Genero/Genero/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(long? id)
         {
-            return View();
+            return GeradorDeViews(id);
         }
 
         // POST: Genero/Genero/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(long id)
         {
-            try
-            {
-                // TODO: Add delete logic here
-
+                generos.Remove(generos.GetById(id));
                 return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
+
+            return View();
         }
     }
 }

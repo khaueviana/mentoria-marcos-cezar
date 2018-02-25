@@ -152,6 +152,7 @@
     <Compile Include="AutoMapper\AutoMapperConfig.cs" />
     <Compile Include="AutoMapper\EntidadeToViewModelMappingProfile.cs" />
     <Compile Include="AutoMapper\ViewModelToEntidadeMappingProfile.cs" />
+    <Compile Include="ControllerHelper.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -178,6 +179,10 @@
     <Content Include="Areas\Genero\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Genero\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Genero\Views\Genero\Index.cshtml" />
+    <Content Include="Areas\Genero\Views\Genero\Details.cshtml" />
+    <Content Include="Areas\Genero\Views\Genero\Create.cshtml" />
+    <Content Include="Areas\Genero\Views\Genero\Edit.cshtml" />
+    <Content Include="Areas\Genero\Views\Genero\Delete.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
