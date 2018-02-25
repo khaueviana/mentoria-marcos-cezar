@@ -50,9 +50,11 @@
     <Compile Include="Context\BibliotecaContext.cs" />
     <Compile Include="CRUDDAL\GeneroDAL.cs" />
     <Compile Include="CRUDDAL\PadraoDAL.cs" />
+    <Compile Include="CRUDDAL\PlataformaDAL.cs" />
     <Compile Include="CRUDDAL\ProdutoraDAL.cs" />
     <Compile Include="Interface\IGeneroMetodosCRUD.cs" />
     <Compile Include="Interface\IMetodosCRUD.cs" />
+    <Compile Include="Interface\IPlataformaDAL.cs" />
     <Compile Include="Interface\IProdutoraDAL.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

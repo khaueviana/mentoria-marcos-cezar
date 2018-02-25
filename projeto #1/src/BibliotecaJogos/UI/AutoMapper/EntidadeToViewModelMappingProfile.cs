@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Entidades;
 using UI.Areas.Genero.ViewModels;
+using UI.Areas.Plataforma.ViewModels;
 using UI.Areas.Produtora.ViewModels;
 
 namespace UI.AutoMapper
@@ -12,6 +13,7 @@ namespace UI.AutoMapper
 
             CreateMap< Genero, GeneroViewModel>();
             CreateMap<Produtora, ProdutoraViewModel>();
+            CreateMap<Plataforma, PlataformaViewModel>();
         }
     }
 }

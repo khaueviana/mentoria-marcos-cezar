@@ -149,6 +149,9 @@
     <Compile Include="Areas\Genero\Controllers\GeneroController.cs" />
     <Compile Include="Areas\Genero\GeneroAreaRegistration.cs" />
     <Compile Include="Areas\Genero\ViewModels\GeneroViewModel.cs" />
+    <Compile Include="Areas\Plataforma\Controllers\PlataformaController.cs" />
+    <Compile Include="Areas\Plataforma\PlataformaAreaRegistration.cs" />
+    <Compile Include="Areas\Plataforma\ViewModels\PlataformaViewModel.cs" />
     <Compile Include="Areas\Produtora\Controllers\ProdutoraController.cs" />
     <Compile Include="Areas\Produtora\ProdutoraAreaRegistration.cs" />
     <Compile Include="Areas\Produtora\ViewModels\ProdutoraViewModel.cs" />
@@ -189,6 +192,14 @@
     <Content Include="Areas\Produtora\Views\Produtora\Create.cshtml" />
     <Content Include="Areas\Produtora\Views\Produtora\Edit.cshtml" />
     <Content Include="Areas\Produtora\Views\Produtora\Delete.cshtml" />
+    <Content Include="Areas\Plataforma\Views\web.config" />
+    <Content Include="Areas\Plataforma\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Plataforma\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Plataforma\Views\Plataforma\Index.cshtml" />
+    <Content Include="Areas\Plataforma\Views\Plataforma\Details.cshtml" />
+    <Content Include="Areas\Plataforma\Views\Plataforma\Edit.cshtml" />
+    <Content Include="Areas\Plataforma\Views\Plataforma\Create.cshtml" />
+    <Content Include="Areas\Plataforma\Views\Plataforma\Delete.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
