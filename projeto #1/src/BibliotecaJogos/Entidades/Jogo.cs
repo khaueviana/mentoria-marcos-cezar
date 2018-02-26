@@ -11,7 +11,7 @@ namespace Entidades
 
         public string Nome { get; set; }
         public string Descricao { get; set; }
-        public DateTime DataLancamento{ get; set; }
+        public int DataLancamento{ get; set; }
         public decimal Preco { get; set; }
         public byte NotaDoJogo { get; set; }
 
@@ -27,5 +27,11 @@ namespace Entidades
         public long ProdutoraId { get; set; }
         [ForeignKey("ProdutoraId")]
         public Produtora Produtora { get; set; }
+
+        public string LogotipoMimeType { get; set; }
+        public byte[] Logotipo { get; set; }
+        public string NomeArquivo { get; set; }
+        public long TamanhoArquivo { get; set; }
+
     }
 }

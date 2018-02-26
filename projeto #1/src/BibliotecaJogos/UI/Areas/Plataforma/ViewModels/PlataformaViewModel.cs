@@ -14,6 +14,6 @@ namespace UI.Areas.Plataforma.ViewModels
         [MinLength(2, ErrorMessage = "Deve conter ao menos 2 caractere")]
         public string Nome { get; set; }
 
-        public virtual ICollection<Jogo> Jogos { get; set; }
+        public virtual ICollection<Entidades.Jogo> Jogos { get; set; }
     }
 }

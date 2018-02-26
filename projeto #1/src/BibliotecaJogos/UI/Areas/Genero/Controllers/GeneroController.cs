@@ -16,7 +16,7 @@ namespace UI.Areas.Genero.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            var generoViewModel = Mapper.Map<Entidades.Genero, GeneroViewModel>(generos.GetById((long)id));
+            var generoViewModel = Mapper.Map<Entidades.Genero, GeneroViewModel>(cntx.GetById((long)id));
             if (generoViewModel == null)
             {
                 return HttpNotFound();
@@ -24,11 +24,11 @@ namespace UI.Areas.Genero.Controllers
             return View(generoViewModel);
         }
 
-        private GeneroBLL generos = new GeneroBLL();
+        private GeneroBLL cntx = new GeneroBLL();
         // GET: Genero/Genero
         public ActionResult Index()
         {
-            var generoViewModel = Mapper.Map <IEnumerable < Entidades.Genero>, IEnumerable<GeneroViewModel>>(generos.GetAll());
+            var generoViewModel = Mapper.Map <IEnumerable < Entidades.Genero>, IEnumerable<GeneroViewModel>>(cntx.GetAll());
             return View(generoViewModel);
         }
 
@@ -52,7 +52,7 @@ namespace UI.Areas.Genero.Controllers
             if (ModelState.IsValid)
             {
                 Entidades.Genero genero = Mapper.Map<GeneroViewModel, Entidades.Genero>(obj);
-                generos.Add(genero);
+                cntx.Add(genero);
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -72,7 +72,7 @@ namespace UI.Areas.Genero.Controllers
             if (ModelState.IsValid)
             {
                 Entidades.Genero genero = Mapper.Map<GeneroViewModel, Entidades.Genero>(obj);
-                generos.Update(genero);
+                cntx.Update(genero);
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -89,7 +89,7 @@ namespace UI.Areas.Genero.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(long id)
         {
-                generos.Remove(generos.GetById(id));
+                cntx.Remove(cntx.GetById(id));
                 return RedirectToAction("Index");
 
         }

@@ -49,6 +49,12 @@
     <Reference Include="AutoMapper, Version=6.2.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
       <HintPath>..\packages\AutoMapper.6.2.2\lib\net45\AutoMapper.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
@@ -149,6 +155,9 @@
     <Compile Include="Areas\Genero\Controllers\GeneroController.cs" />
     <Compile Include="Areas\Genero\GeneroAreaRegistration.cs" />
     <Compile Include="Areas\Genero\ViewModels\GeneroViewModel.cs" />
+    <Compile Include="Areas\Jogo\Controllers\JogoController.cs" />
+    <Compile Include="Areas\Jogo\JogoAreaRegistration.cs" />
+    <Compile Include="Areas\Jogo\ViewModels\JogoViewModel.cs" />
     <Compile Include="Areas\Plataforma\Controllers\PlataformaController.cs" />
     <Compile Include="Areas\Plataforma\PlataformaAreaRegistration.cs" />
     <Compile Include="Areas\Plataforma\ViewModels\PlataformaViewModel.cs" />
@@ -200,6 +209,15 @@
     <Content Include="Areas\Plataforma\Views\Plataforma\Edit.cshtml" />
     <Content Include="Areas\Plataforma\Views\Plataforma\Create.cshtml" />
     <Content Include="Areas\Plataforma\Views\Plataforma\Delete.cshtml" />
+    <Content Include="Areas\Jogo\Views\web.config" />
+    <Content Include="Areas\Jogo\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Jogo\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Genero\Views\Genero\Index.cshtml" />
+    <Content Include="Areas\Genero\Views\Genero\Details.cshtml" />
+    <Content Include="Areas\Genero\Views\Genero\Create.cshtml" />
+    <Content Include="Areas\Genero\Views\Genero\Edit.cshtml" />
+    <Content Include="Areas\Genero\Views\Genero\Delete.cshtml" />
+    <Content Include="Areas\Jogo\Views\Jogo\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -227,7 +245,6 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Areas\Genero\Views\Genero\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

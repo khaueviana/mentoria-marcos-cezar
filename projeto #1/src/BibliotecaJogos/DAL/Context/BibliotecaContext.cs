@@ -1,5 +1,6 @@
 ﻿using Entidades;
 using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace DAL.Context
 {
@@ -7,9 +8,15 @@ namespace DAL.Context
     {
         public BibliotecaContext() : base("BibliotecaJogos") { }
 
-        DbSet<Genero> Generos { get; set; }
-        DbSet<Produtora> Produtoras { get; set; }
-        DbSet<Plataforma> Plataformas { get; set; }
-        DbSet<Jogo> Jogos { get; set; }
+        public DbSet<Genero> Generos { get; set; }
+        public DbSet<Produtora> Produtoras { get; set; }
+        public DbSet<Plataforma> Plataformas { get; set; }
+        public DbSet<Jogo> Jogos { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }
