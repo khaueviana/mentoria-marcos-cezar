@@ -6,7 +6,7 @@ using UI.Areas.Tabelas.ViewModels;
 using System.Collections.Generic;
 using System.Net;
 
-namespace UI.Areas.Genero.Controllers
+namespace UI.Areas.Tabelas.Controllers
 {
     public class GeneroController : Controller
     {
@@ -28,7 +28,7 @@ namespace UI.Areas.Genero.Controllers
         // GET: Genero/Genero
         public ActionResult Index()
         {
-            var generoViewModel = Mapper.Map <IEnumerable < Entidades.Genero>, IEnumerable<GeneroViewModel>>(cntx.GetAll());
+            var generoViewModel = Mapper.Map<IEnumerable<Entidades.Genero>, IEnumerable<GeneroViewModel>>(cntx.GetAll());
             return View(generoViewModel);
         }
 
@@ -89,8 +89,8 @@ namespace UI.Areas.Genero.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(long id)
         {
-                cntx.Remove(cntx.GetById(id));
-                return RedirectToAction("Index");
+            cntx.Remove(cntx.GetById(id));
+            return RedirectToAction("Index");
 
         }
     }

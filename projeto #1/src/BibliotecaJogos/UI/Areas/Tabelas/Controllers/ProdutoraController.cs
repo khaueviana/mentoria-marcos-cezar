@@ -4,24 +4,25 @@ using AutoMapper;
 using System.Collections.Generic;
 using UI.Areas.Tabelas.ViewModels;
 using System.Net;
-namespace UI.Areas.Produtora.Controllers
+
+namespace UI.Areas.Tabelas.Controllers
 {
     public class ProdutoraController : Controller
     {
         private ActionResult GerarViews(long? id)
         {
-            if(id== null)
+            if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             var produtoraViewModel = Mapper.Map<Entidades.Produtora, ProdutoraViewModel>(cntx.GetById((long)id));
-            if(produtoraViewModel == null)
+            if (produtoraViewModel == null)
             {
                 return HttpNotFound();
             }
             return View(produtoraViewModel);
-            
-            
+
+
         }
 
         private ProdutoraBLL cntx = new ProdutoraBLL();
@@ -82,7 +83,7 @@ namespace UI.Areas.Produtora.Controllers
         // GET: Produtora/Produtora/Delete/5
         public ActionResult Delete(long? id)
         {
-            return GerarViews(id); 
+            return GerarViews(id);
         }
 
         // POST: Produtora/Produtora/Delete/5

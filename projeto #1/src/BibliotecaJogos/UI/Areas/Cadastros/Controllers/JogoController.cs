@@ -121,11 +121,9 @@ namespace UI.Areas.Cadastros.Controllers
             {
                 if(img!=null && img.ContentLength > 0)
                 {
-                    var jogo = Mapper.Map<JogoViewModel, Entidades.Jogo>(jogoViewModel);
-                    jogo.TamanhoArquivo = img.ContentLength;
-                    jogo.LogotipoMimeType = img.ContentType;
-                    jogo.Logotipo = SetLogotipo(img);
-                    cntx.Update(jogo);
+                    jogoViewModel.TamanhoArquivo = img.ContentLength;
+                    jogoViewModel.LogotipoMimeType = img.ContentType;
+                    jogoViewModel.Logotipo = SetLogotipo(img);
                 }
                 else
                 {
@@ -135,9 +133,10 @@ namespace UI.Areas.Cadastros.Controllers
                     jogoViewModel.Logotipo = jogoOriginal.Logotipo;
                     jogoViewModel.LogotipoMimeType = jogoOriginal.LogotipoMimeType;
                     jogoViewModel.TamanhoArquivo = jogoOriginal.TamanhoArquivo;
-                    var jogo = Mapper.Map<JogoViewModel, Entidades.Jogo>(jogoViewModel);
-                    cntx.Update(jogo);
+                    
                 }
+                var jogo = Mapper.Map<JogoViewModel, Entidades.Jogo>(jogoViewModel);
+                cntx.Update(jogo);
                 return RedirectToAction("Index");
             }
 

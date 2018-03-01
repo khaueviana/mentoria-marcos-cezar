@@ -26,8 +26,11 @@ namespace DAL.CRUDDAL
             var local = context.Set<Jogo>()
                             .Local
                             .FirstOrDefault(f => f.JogoId == jogo.JogoId);
+            if(local != null)
+            {
+                context.Entry(local).State = System.Data.Entity.EntityState.Detached;
+            }
 
-            context.Entry(local).State = System.Data.Entity.EntityState.Detached;
             context.Entry(jogo).State = System.Data.Entity.EntityState.Modified;
             context.SaveChanges();
         }

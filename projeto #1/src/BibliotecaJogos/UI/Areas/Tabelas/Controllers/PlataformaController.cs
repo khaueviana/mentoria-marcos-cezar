@@ -4,8 +4,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Web.Mvc;
 using UI.Areas.Tabelas.ViewModels;
-
-namespace UI.Areas.Plataforma.Controllers
+namespace UI.Areas.Tabelas.Controllers
 {
     public class PlataformaController : Controller
     {

@@ -155,17 +155,16 @@
     <Compile Include="Areas\Cadastros\CadastrosAreaRegistration.cs" />
     <Compile Include="Areas\Cadastros\Controllers\JogoController.cs" />
     <Compile Include="Areas\Tabelas\Controllers\GeneroController.cs" />
+    <Compile Include="Areas\Tabelas\Controllers\PlataformaController.cs" />
+    <Compile Include="Areas\Tabelas\Controllers\ProdutoraController.cs" />
+    <Compile Include="Areas\Tabelas\TabelasAreaRegistration.cs" />
     <Compile Include="Areas\Tabelas\ViewModels\GeneroViewModel.cs" />
     <Compile Include="Areas\Cadastros\ViewModels\JogoViewModel.cs" />
-    <Compile Include="Areas\Tabelas\Controllers\PlataformaController.cs" />
     <Compile Include="Areas\Tabelas\ViewModels\PlataformaViewModel.cs" />
-    <Compile Include="Areas\Tabelas\Controllers\ProdutoraController.cs" />
     <Compile Include="Areas\Tabelas\ViewModels\ProdutoraViewModel.cs" />
-    <Compile Include="Areas\Tabelas\TabelasAreaRegistration.cs" />
     <Compile Include="AutoMapper\AutoMapperConfig.cs" />
     <Compile Include="AutoMapper\EntidadeToViewModelMappingProfile.cs" />
     <Compile Include="AutoMapper\ViewModelToEntidadeMappingProfile.cs" />
-    <Compile Include="ControllerHelper.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -183,21 +182,36 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Images\cartão.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Areas\Tabelas\Views\web.config" />
     <Content Include="Areas\Cadastros\Views\web.config" />
     <Content Include="Areas\Cadastros\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\Cadastros\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Cadastros\Views\Jogo\Index.cshtml" />
     <Content Include="Areas\Cadastros\Views\Jogo\Create.cshtml" />
     <Content Include="Areas\Cadastros\Views\Jogo\Details.cshtml" />
     <Content Include="Areas\Cadastros\Views\Jogo\Edit.cshtml" />
     <Content Include="Areas\Cadastros\Views\Jogo\Delete.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Shared\_partialViewListaDeJogos.cshtml" />
+    <Content Include="Areas\Tabelas\Views\web.config" />
+    <Content Include="Areas\Tabelas\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Genero\Index.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Genero\Details.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Genero\Create.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Genero\Edit.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Genero\Delete.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Plataforma\Index.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Plataforma\Details.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Plataforma\Create.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Plataforma\Edit.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Plataforma\Delete.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Produtora\Index.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Produtora\Details.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Produtora\Create.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Produtora\Edit.cshtml" />
+    <Content Include="Areas\Tabelas\Views\Produtora\Delete.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -225,7 +239,8 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Areas\Tabelas\Views\Shared\" />
+    <Folder Include="Areas\Cadastros\Views\Shared\" />
+    <Folder Include="Images\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

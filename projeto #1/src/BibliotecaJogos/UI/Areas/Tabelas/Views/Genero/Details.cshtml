@@ -1,0 +1,31 @@
+﻿@model UI.Areas.Tabelas.ViewModels.GeneroViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>GeneroViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>Jogos</dt>
+        <dd>
+
+            @Html.Partial("_partialViewListaDeJogos", Model.Jogos)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.GeneroId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

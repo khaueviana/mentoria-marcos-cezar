@@ -1,6 +1,7 @@
 ﻿using Entidades;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using UI.Areas.Cadastros.ViewModels;
 
 namespace UI.Areas.Tabelas.ViewModels
 {
@@ -14,6 +15,6 @@ namespace UI.Areas.Tabelas.ViewModels
         [MinLength(2, ErrorMessage = "Deve conter ao menos 2 caractere")]
         public string Nome { get; set; }
 
-        public virtual ICollection<Entidades.Jogo> Jogos { get; set; }
+        public virtual ICollection<JogoViewModel> Jogos { get; set; }
     }
 }
