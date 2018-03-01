@@ -23,7 +23,6 @@ namespace UI.Areas.Cadastros.ViewModels
 
         [Display(Name = "Preço")]
         [Range(0,9990.99)]
-        [DataType(DataType.Currency)]
         public decimal Preco { get; set; }
 
         [Required]

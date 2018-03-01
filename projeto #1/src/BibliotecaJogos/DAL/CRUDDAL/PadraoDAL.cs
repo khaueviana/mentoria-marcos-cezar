@@ -1,5 +1,6 @@
 ﻿using DAL.Context;
 using DAL.Interface;
+using Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,8 +38,9 @@ namespace DAL.CRUDDAL
             context.SaveChanges();
         }
 
-        public void Update(TEntity obj)
+        public virtual void Update(TEntity obj)
         {
+            
             context.Entry(obj).State = System.Data.Entity.EntityState.Modified;
             context.SaveChanges();
         }

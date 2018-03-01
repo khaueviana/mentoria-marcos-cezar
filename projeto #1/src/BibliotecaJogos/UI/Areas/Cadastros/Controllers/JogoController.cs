@@ -125,6 +125,7 @@ namespace UI.Areas.Cadastros.Controllers
                     jogo.TamanhoArquivo = img.ContentLength;
                     jogo.LogotipoMimeType = img.ContentType;
                     jogo.Logotipo = SetLogotipo(img);
+                    cntx.Update(jogo);
                 }
                 else
                 {

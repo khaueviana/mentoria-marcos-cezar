@@ -20,5 +20,16 @@ namespace DAL.CRUDDAL
         {
             return context.Jogos.Include("Plataforma").Include("Produtora").Include("Genero").Where(j => j.JogoId == id).First();
         }
+
+        public override void Update(Jogo jogo)
+        {
+            var local = context.Set<Jogo>()
+                            .Local
+                            .FirstOrDefault(f => f.JogoId == jogo.JogoId);
+
+            context.Entry(local).State = System.Data.Entity.EntityState.Detached;
+            context.Entry(jogo).State = System.Data.Entity.EntityState.Modified;
+            context.SaveChanges();
+        }
     }
 }
