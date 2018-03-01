@@ -1,0 +1,83 @@
+﻿@model IEnumerable<UI.Areas.Cadastros.ViewModels.JogoViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th style="width:20%">
+            Capa
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataLancamento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Preco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NotaDoJogo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Genero.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Plataforma.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Produtora.Nome)
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <img class="img-thumbnail" src="@Url.Action("GetLogotipo", "Jogo", new { id = item.JogoId })" style="display:inline-block; margin-left:auto;margin-right:auto; width:100%" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataLancamento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Preco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NotaDoJogo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Genero.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Plataforma.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Produtora.Nome)
+        </td>
+
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.JogoId }) |
+            @Html.ActionLink("Details", "Details", new { id = item.JogoId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.JogoId })
+        </td>
+    </tr>
+}
+
+</table>

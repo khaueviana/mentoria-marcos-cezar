@@ -18,7 +18,7 @@ namespace DAL.CRUDDAL
 
         public override Jogo GetById(long id)
         {
-            return context.Jogos.Find(id);
+            return context.Jogos.Include("Plataforma").Include("Produtora").Include("Genero").Where(j => j.JogoId == id).First();
         }
     }
 }

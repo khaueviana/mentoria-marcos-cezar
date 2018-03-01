@@ -152,18 +152,16 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Areas\Genero\Controllers\GeneroController.cs" />
-    <Compile Include="Areas\Genero\GeneroAreaRegistration.cs" />
-    <Compile Include="Areas\Genero\ViewModels\GeneroViewModel.cs" />
-    <Compile Include="Areas\Jogo\Controllers\JogoController.cs" />
-    <Compile Include="Areas\Jogo\JogoAreaRegistration.cs" />
-    <Compile Include="Areas\Jogo\ViewModels\JogoViewModel.cs" />
-    <Compile Include="Areas\Plataforma\Controllers\PlataformaController.cs" />
-    <Compile Include="Areas\Plataforma\PlataformaAreaRegistration.cs" />
-    <Compile Include="Areas\Plataforma\ViewModels\PlataformaViewModel.cs" />
-    <Compile Include="Areas\Produtora\Controllers\ProdutoraController.cs" />
-    <Compile Include="Areas\Produtora\ProdutoraAreaRegistration.cs" />
-    <Compile Include="Areas\Produtora\ViewModels\ProdutoraViewModel.cs" />
+    <Compile Include="Areas\Cadastros\CadastrosAreaRegistration.cs" />
+    <Compile Include="Areas\Cadastros\Controllers\JogoController.cs" />
+    <Compile Include="Areas\Tabelas\Controllers\GeneroController.cs" />
+    <Compile Include="Areas\Tabelas\ViewModels\GeneroViewModel.cs" />
+    <Compile Include="Areas\Cadastros\ViewModels\JogoViewModel.cs" />
+    <Compile Include="Areas\Tabelas\Controllers\PlataformaController.cs" />
+    <Compile Include="Areas\Tabelas\ViewModels\PlataformaViewModel.cs" />
+    <Compile Include="Areas\Tabelas\Controllers\ProdutoraController.cs" />
+    <Compile Include="Areas\Tabelas\ViewModels\ProdutoraViewModel.cs" />
+    <Compile Include="Areas\Tabelas\TabelasAreaRegistration.cs" />
     <Compile Include="AutoMapper\AutoMapperConfig.cs" />
     <Compile Include="AutoMapper\EntidadeToViewModelMappingProfile.cs" />
     <Compile Include="AutoMapper\ViewModelToEntidadeMappingProfile.cs" />
@@ -185,39 +183,21 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\cartão.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Areas\Genero\Views\web.config" />
-    <Content Include="Areas\Genero\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\Genero\Views\Shared\_Layout.cshtml" />
-    <Content Include="Areas\Produtora\Views\web.config" />
-    <Content Include="Areas\Produtora\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\Produtora\Views\Shared\_Layout.cshtml" />
-    <Content Include="Areas\Produtora\Views\Produtora\Index.cshtml" />
-    <Content Include="Areas\Produtora\Views\Produtora\Details.cshtml" />
-    <Content Include="Areas\Produtora\Views\Produtora\Create.cshtml" />
-    <Content Include="Areas\Produtora\Views\Produtora\Edit.cshtml" />
-    <Content Include="Areas\Produtora\Views\Produtora\Delete.cshtml" />
-    <Content Include="Areas\Plataforma\Views\web.config" />
-    <Content Include="Areas\Plataforma\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\Plataforma\Views\Shared\_Layout.cshtml" />
-    <Content Include="Areas\Plataforma\Views\Plataforma\Index.cshtml" />
-    <Content Include="Areas\Plataforma\Views\Plataforma\Details.cshtml" />
-    <Content Include="Areas\Plataforma\Views\Plataforma\Edit.cshtml" />
-    <Content Include="Areas\Plataforma\Views\Plataforma\Create.cshtml" />
-    <Content Include="Areas\Plataforma\Views\Plataforma\Delete.cshtml" />
-    <Content Include="Areas\Jogo\Views\web.config" />
-    <Content Include="Areas\Jogo\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\Jogo\Views\Shared\_Layout.cshtml" />
-    <Content Include="Areas\Genero\Views\Genero\Index.cshtml" />
-    <Content Include="Areas\Genero\Views\Genero\Details.cshtml" />
-    <Content Include="Areas\Genero\Views\Genero\Create.cshtml" />
-    <Content Include="Areas\Genero\Views\Genero\Edit.cshtml" />
-    <Content Include="Areas\Genero\Views\Genero\Delete.cshtml" />
-    <Content Include="Areas\Jogo\Views\Jogo\Index.cshtml" />
+    <Content Include="Areas\Tabelas\Views\web.config" />
+    <Content Include="Areas\Cadastros\Views\web.config" />
+    <Content Include="Areas\Cadastros\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Cadastros\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Cadastros\Views\Jogo\Index.cshtml" />
+    <Content Include="Areas\Cadastros\Views\Jogo\Create.cshtml" />
+    <Content Include="Areas\Cadastros\Views\Jogo\Details.cshtml" />
+    <Content Include="Areas\Cadastros\Views\Jogo\Edit.cshtml" />
+    <Content Include="Areas\Cadastros\Views\Jogo\Delete.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -245,6 +225,7 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Areas\Tabelas\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

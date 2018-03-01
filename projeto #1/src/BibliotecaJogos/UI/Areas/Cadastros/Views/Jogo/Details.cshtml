@@ -1,0 +1,93 @@
+﻿@model UI.Areas.Cadastros.ViewModels.JogoViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>JogoViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            Capa do jogo
+        </dt>
+
+        <dd>
+         <img class="img-thumbnail" src="@Url.Action("GetLogotipo", "Jogo", new { id = Model.JogoId })" style="display:block; margin-left:0; clear:both;:auto;width:20%" />
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataLancamento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataLancamento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Preco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Preco)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NotaDoJogo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NotaDoJogo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Genero.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Genero.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Plataforma.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Plataforma.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Produtora.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Produtora.Nome)
+        </dd>
+
+
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.JogoId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

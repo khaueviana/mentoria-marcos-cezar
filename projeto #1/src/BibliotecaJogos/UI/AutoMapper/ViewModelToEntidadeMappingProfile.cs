@@ -1,9 +1,7 @@
 ﻿using AutoMapper;
 using Entidades;
-using UI.Areas.Genero.ViewModels;
-using UI.Areas.Jogo.ViewModels;
-using UI.Areas.Plataforma.ViewModels;
-using UI.Areas.Produtora.ViewModels;
+using UI.Areas.Cadastros.ViewModels;
+using UI.Areas.Tabelas.ViewModels;
 
 namespace UI.AutoMapper
 {
